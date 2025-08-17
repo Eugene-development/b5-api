@@ -12,7 +12,7 @@ Route::get('/health', function () {
 
 
 
-Route::get('/test-db2', function () {
+Route::get('/test-db7', function () {
     try {
         DB::connection()->getPdo();
         return 'База данных подключена!!!';

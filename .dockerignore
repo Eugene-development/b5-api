@@ -27,6 +27,10 @@ storage/framework/views/*
 storage/logs/*
 bootstrap/cache/*
 
+bootstrap/cache/*
+storage/*.log
+storage/lighthouse-schema*
+
 # Testing
 .phpunit.result.cache
 tests/
